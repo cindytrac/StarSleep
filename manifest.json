@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "StarSleep",
+  "description": "Set and send reminders about sleep and productivity",
+  "version": "1.0",
+
+  "chrome_url_overrides": {
+    "newtab": "newpage.html"
+  },
+
+  "brower_action": {
+    "default_icon": "york.png"
+  },
+
+  "permissions":[
+    "tabs"
+  ],
+
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+
+}
