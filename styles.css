@@ -155,3 +155,54 @@ h2 {
 	transform:translate3d(0,0,0) rotateX(0);
 }
 /* end of clock */
+
+/* [FONT] */
+ #break{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+#ctime, #tpick {
+	border-radius: 25px;
+  font-family: Impact, sans-serif;\
+	padding: 7px
+}
+.header {
+  text-align: center;
+  font-weight: normal;
+  margin: 5px 0 10px 0;
+}
+
+/* [TIME PICKER] */
+#tpick {
+  margin: 0 auto;
+  max-width: 350px;
+  padding: 10px;
+  background: #f2f2f2;
+  white-space: nowrap;
+}
+#tpick-h, #tpick-m, #tpick-s {
+  display: inline-block;
+  width: 32%;
+}
+#tpick select {
+  box-sizing: padding-box;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+#tset, #treset {
+  box-sizing: padding-box;
+  width: 50%;
+  background: #3368b2;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+#tset:disabled, #treset:disabled {
+  background: #aaa;
+  color: #888;
+}
